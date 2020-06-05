@@ -24,5 +24,11 @@ namespace MoviesManagerWPF
         {
             InitializeComponent();
         }
+
+        private void PeliculasItem_Click(object sender, RoutedEventArgs e)
+        {
+            rPeliculas rp = new rPeliculas();
+            rp.ShowDialog();
+        }
     }
 }
